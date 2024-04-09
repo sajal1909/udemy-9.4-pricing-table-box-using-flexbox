@@ -1,0 +1,111 @@
+body {
+    font-family: 'Sono', sans-serif;
+  }
+
+.main-div {
+
+    
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    gap: 2rem;
+    height: 100vh;
+}
+
+.price-box {
+
+    
+    flex: 1;
+    flex-direction: column;
+
+    background-color: #f2f2f2;
+
+    max-width: 450px;
+
+    padding: 0 25px;
+    padding-bottom: 10px;
+
+    border-radius: 5px;
+    
+}
+
+.left {
+
+    margin-left: 40px;
+}
+
+.right {
+
+    margin-right: 40px;
+}
+
+.inner-div {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Basic {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.dollars {
+
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.storage {
+
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.users {
+
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.support {
+
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.button {
+
+    background-color: orange;
+    color: white;
+
+    padding: 5px 10px;
+
+    border-radius: 4px;
+    border: none;
+
+    margin-top: 10px;
+}
+
+@media (max-width: 1250px) {
+    .main-div {
+      flex-direction: column;
+      height: 100%;
+    }
+
+    .left {
+
+        margin-left: 0;
+    }
+    
+    .right {
+    
+        margin-right: 0;
+    }
+}
